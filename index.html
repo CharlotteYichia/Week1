@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>week1 project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ＲＷＤ手機菜單欄 -->
+    <div id="rwd-phone-menu">
+      <div class="phone-menu">
+        <div class="phone-menu-close" onclick="toggleMenu()">X</div>
+        <div class="phone-menu-item">item1</div>
+        <div class="phone-menu-item">item2</div>
+        <div class="phone-menu-item">item3</div>
+        <div class="phone-menu-item">item4</div>
+      </div>
+    </div>
+
+    <!-- 電腦及平板主菜單 -->
+    <div id="main-navbar">
+      <div class="mywebsite">MyWebsite</div>
+      <div class="burger" onclick="toggleMenu()">
+        <img src="./pic/burger.png" alt="burger" />
+      </div>
+      <div class="main-menu">
+        <div class="main-menu-item">item1</div>
+        <div class="main-menu-item">item2</div>
+        <div class="main-menu-item">item3</div>
+        <div class="main-menu-item">item4</div>
+      </div>
+    </div>
+
+    <!-- welcome欄 -->
+    <div class="welcome">
+      <div>Welcome to my home</div>
+    </div>
+
+    <!-- 主要欄目開始 -->
+    <div id="maincontainer">
+      <!-- 小箱子部分 -->
+      <div class="smallbox-conatainer">
+        <div class="smallbox-item">
+          <img class="smallbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="smallbox-item-text">promtion1</div>
+        </div>
+        <div class="smallbox-item">
+          <img class="smallbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="smallbox-item-text">promtion2</div>
+        </div>
+        <div class="smallbox-item">
+          <img class="smallbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="smallbox-item-text">promtion3</div>
+        </div>
+      </div>
+
+      <!-- 大箱子部分 -->
+      <div class="bigbox-container">
+        <div class="bigbox-item-a">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title1</div>
+        </div>
+        <div class="bigbox-item">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title2</div>
+        </div>
+        <div class="bigbox-item">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title3</div>
+        </div>
+        <div class="bigbox-item">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title4</div>
+        </div>
+        <div class="bigbox-item">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title5</div>
+        </div>
+
+        <!-- 第二欄大箱子 -->
+        <div class="bigbox-item-a">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title6</div>
+        </div>
+        <div class="bigbox-item">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title7</div>
+        </div>
+        <div class="bigbox-item">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title8</div>
+        </div>
+        <div class="bigbox-item">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title9</div>
+        </div>
+        <div class="bigbox-item">
+          <div class="bigbox-icon-star">
+            <img src="./pic/star.png" alt="icon" class="star-icon" />
+          </div>
+          <img class="bigbox-item-img" src="./pic/DSCF0554.JPG" alt="pic" />
+          <div class="bigbox-item-text">Title10</div>
+        </div>
+      </div>
+    </div>
+    <!-- 主要欄目結束 -->
+    <script src="app.js"></script>
+  </body>
+</html>
